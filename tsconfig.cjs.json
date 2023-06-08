@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": false,
+    "outDir": "cjs",
+    "target": "es2018",
+    "module": "commonjs"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "node_modules/**",
+    "src/**/*.mock.ts",
+    "src/**/*.spec.ts"
+  ]
+}

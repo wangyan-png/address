@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "types",
+    "emitDeclarationOnly": false,
+    "outDir": "esm",
+    "target": "esnext",
+    "module": "esnext"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "node_modules/**",
+    "src/**/*.mock.ts",
+    "src/**/*.spec.ts"
+  ]
+}
